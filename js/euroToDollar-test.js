@@ -14,5 +14,5 @@ function output (result, message) {
   document.getElementById('console').appendChild(p)
 }
 
-assert('1€ should return 0.87$', euroToDollar(1) === 0.87)
-assert('2€ should return 1.74$', euroToDollar(2) === 1.74)
+assert('1€ should return 1.15$', euroToDollar(1) === 1.15)
+assert('2€ should return 2.3$', euroToDollar(2) === 2.3)
