@@ -16,3 +16,4 @@ function output (result, message) {
 
 assert('1€ should return 1.15$', euroToDollar(1) === 1.15)
 assert('2€ should return 2.3$', euroToDollar(2) === 2.3)
+assert('100€ should return 115$', euroToDollar(100) === 115)
