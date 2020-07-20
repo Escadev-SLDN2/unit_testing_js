@@ -41,7 +41,10 @@ function testcase (message, tests) {
       if (hasTeardown) {
         tests.tearDown()
       }
-    } catch (err) {}
+    } catch (err) {
+      // Normalement, on arrête l'exécution du code au premier test raté
+      /* throw new Error(err) */
+    }
   }
   const p2 = document.createElement('p')
   const hr = document.createElement('hr')
