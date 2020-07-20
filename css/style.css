@@ -13,6 +13,11 @@ h1 {
     background-color: teal;
 }
 
+p {
+    margin: 0;
+    text-align: center;
+}
+
 hr {
     border-color: black;
 }
@@ -34,11 +39,8 @@ hr {
 
 .grid {
     display: grid;
-    grid-gap: 2rem;
-}
-
-.grid.three {
-    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.5rem 2rem;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 input,
