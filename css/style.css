@@ -48,6 +48,10 @@ button {
     border: 1px solid teal;
 }
 
+input[disabled] {
+    border-color: #cfcfcf;
+}
+
 button {
     font-weight: 600;
     color: white;
