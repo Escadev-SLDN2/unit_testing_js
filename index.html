@@ -6,13 +6,25 @@
     <title>Tests unitaires JS</title>
 
     <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/convert_euro.js" defer></script>
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
     <h1>Tests unitaires JS</h1>
     <hr />
-    
-    <a href="index-test.html">Accéder aux tests</a>
+
+    <div id="container">
+        <div class="grid three">
+            <p><input type="number" id="numberToConvert" /> €</p>
+            <p><input type="number" id="numberConverted" disabled /> $</p>
+            <p><button onclick="convertEuros()">Convertir &gt;</button></p>
+        </div>
+    </div>
+
+    <hr />
+    <p class="text-center"><a href="index-test.html">Accéder aux tests</a></p>
 </body>
 
 </html>
