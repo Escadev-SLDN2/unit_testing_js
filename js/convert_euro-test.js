@@ -40,28 +40,28 @@ function testcase (message, tests) {
 
 testcase('I convert euro to usd', {
   'I test with one euro': function () {
-    assert('1€ should return 1,3$', convertEuro(1, 'USD') === 1.3)
+    assert('1€ should return 1,15$', convertEuro(1, 'USD') === 1.15)
   },
   'I test with two euros': function () {
-    assert('2€ should return 2,6$', convertEuro(2, 'USD') === 2.6)
+    assert('2€ should return 2,3$', convertEuro(2, 'USD') === 2.3)
   }
 })
 
 testcase('i convert euro to gbp', {
   'I test with one euro': function () {
-    assert('1€ should return 0,87£', convertEuro(1, 'GBP') === 0.87)
+    assert('1€ should return 0,91£', convertEuro(1, 'GBP') === 0.91)
   },
   'I test with two euros': function () {
-    assert('2€ should return 1,74£', convertEuro(2, 'GBP') === 1.74)
+    assert('2€ should return 1,82£', convertEuro(2, 'GBP') === 1.82)
   }
 })
 
 testcase('i convert euro to jpy', {
   'I test with one euro': function () {
-    assert('1€ should return 124,77¥', convertEuro(1, 'JPY') === 124.77)
+    assert('1€ should return 122.86¥', convertEuro(1, 'JPY') === 122.86)
   },
   'I test with two euros': function () {
-    assert('2€ should return 249,54¥', convertEuro(2, 'JPY') === 249.54)
+    assert('2€ should return 245,72¥', convertEuro(2, 'JPY') === 245.72)
   }
 })
 
