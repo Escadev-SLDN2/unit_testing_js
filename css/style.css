@@ -6,12 +6,23 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+    padding: 0.5rem 1rem;
+    text-align: center;
+    color: white;
+    background-color: teal;
+}
+
+hr {
+    border-color: black;
+}
+
 #container {
     margin: 1rem auto;
     padding: 1rem;
     width: 50%;
     text-align: center;
-    border: 1px solid #cfcfcf;
+    border: 1px solid brown;
 }
 
 #console {
@@ -34,11 +45,13 @@ input,
 button {
     padding: 0.5rem 1rem;
     background-color: transparent;
-    border: 1px solid #cfcfcf;
+    border: 1px solid teal;
 }
 
 button {
-    background-color: aquamarine;
+    font-weight: 600;
+    color: white;
+    background-color: teal;
 }
 
 .text-center {
