@@ -1,3 +1,3 @@
 function euroToDollar (euro) {
-  return euro * 1.3
+  return euro * 0.87
 }
